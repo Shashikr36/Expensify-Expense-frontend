@@ -6,7 +6,7 @@ import Spinner from "../components/Spinner";
 
 export default function Register() {
   const api = axios.create({
-    baseURL: "https://expensify-backend-yq4v.onrender.com/api/v1", // Specify the base URL for your API
+    baseURL: "https://expensify-expense-backend.onrender.com/api/v1", // Specify the base URL for your API
   });
 
   const navigate = useNavigate();
