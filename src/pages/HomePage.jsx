@@ -39,7 +39,7 @@ const HomePage = () => {
   };
 
   const api = axios.create({
-    baseURL: "https://expensify-expense-backend.onrender.com/api/v1", // Specify the base URL for your API
+    baseURL: "https://expensify-expense-backend-1.onrender.com/api/v1", // Specify the base URL for your API
   });
 
   //table data
